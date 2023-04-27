@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/"> --->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Incrip y Descrip</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.svg" alt="" class="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="cont-text">
+                <textarea placeholder="Ingrese el texto aqui" name="" id="" cols="30" rows="10" class="cajaTexto"></textarea>
+            </div>
+            <div class="msje-alert">
+                <img src="img/alerta.svg" alt="alerta" class="icon-alert">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="cont-botton">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar"  value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="cont-result">
+                <p class="text-result"></p>
+            </div>
+            <div class="cont-img">
+                <img src="img/Muñeco.svg" alt="" class="muñeco">
+            </div>
+            <div class="text-incrip">
+                <h3>Ningun Mensaje fue encontrado</h3>
+                <p>Ingrese el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="cont-copiar">
+                <input type="button" class="btn-copiar" value="Copiar" id="boton-copiar" style="display:none">
+            </div>
+        </section>
+    </main>
+
+    <script src="js/logIncript.js"></script>
+</body>
+</html>
